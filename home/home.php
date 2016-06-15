@@ -14,7 +14,7 @@
 
 		<h1>Le Réaligraphe</h1>
 
-		<a href="offrir-choix"><div class="bouton-offrir">
+		<a href="../offrir-choix"><div class="bouton-offrir">
 			<h2>Offrez un Réaligramme</h2>
 		</div></a>
 

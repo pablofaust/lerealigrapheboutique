@@ -152,10 +152,10 @@ a, a:hover {
 
 .choix .colonne {
 	padding: 0;
+	margin-bottom: 3vh;
 }
 
 .activite {
-	border: 2px solid rgba(0, 0, 0, 0.7);
 	width: 100%;
 	padding: 5vh;
 	margin-bottom: 2vh;
@@ -209,16 +209,23 @@ a, a:hover {
 	color: rgba(225, 28, 40, 0.8);
 }
 
+.choix .colonne .col-xs-12 {
+	padding: 0;
+}
+
 .choix .bouton-choisir {
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
 	border: 2px solid rgba(0, 0, 0, 0.7);
 	padding: 3vh;
 	text-align: center;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	color: rgba(225, 28, 40, 0.8);
+	color: rgba(0, 0, 0, 0.7);
 	font-weight: 700;
-	margin-bottom: 5vh;
+	margin-bottom: 1vh;
 }
 
 .choix .bouton-choisir:hover {

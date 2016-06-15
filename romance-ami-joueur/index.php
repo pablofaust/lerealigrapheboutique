@@ -3,7 +3,7 @@
 <?php include $route.'/assets/header.php' ?>
 <body>
 
-<?php include $route.'/romance-ami-joueur/client.php' ?>
+<?php include $route.'/romance-ami-joueur/front.php' ?>
 
 
 </body>

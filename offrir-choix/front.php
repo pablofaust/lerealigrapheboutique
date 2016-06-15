@@ -26,9 +26,9 @@
 					<div style="background-image: url('<?php echo $url ?>offrir-choix/img/equipe.png')" ></div>
 				</div>
 
-				<h2>Une aventure collective</h2>
+				<h2>~ L'aventure collective ~</h2>
 
-				<h3>Offrez à votre ami/e une mission qu’il/elle devra mener à bien avec d’autres personnes à qui un Réaligramme aura été offert.</h3>
+				<h3>Une mission qu'il va falloir mener à bien avec d’autres personnes à qui un Réaligramme aura été offert.</h3>
 
 				<a href="#"><p>En savoir +</p></a>
 
@@ -36,7 +36,7 @@
 
 			<div class="row clearfix">
 
-				<div class="col-md-6">
+				<div class="col-xs-12">
 
 					<a href="../aventure-ami-client"><div class="bouton-choisir">
 						<p>Offrez ce Réaligramme à un/e ami/e</p>
@@ -44,10 +44,10 @@
 
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-xs-12">
 
 					<a href="../aventure-perso"><div class="bouton-choisir">
-						<p>Offrez ce Réaligramme à vous-même (au calme)</p>
+						<p>Offrez-vous ce Réaligramme</p>
 					</div></a>
 
 				</div>
@@ -64,10 +64,10 @@
 					<div style="background-image: url('<?php echo $url ?>offrir-choix/img/couple.png')" ></div>
 				</div>
 
-				<h2>Une aventure romantique</h2>
+				<h2>~ L'aventure romantique ~</h2>
 
-				<h3>Offrez à votre ami/e une mission qu’il/elle devra mener à bien avec une autre personne à qui un Réaligramme a été offert.
-				 Nous lui ferons réaliser l’activité avec une personne choisie au hasard… parce que le hasard fait souvent bien les choses !</h3>
+				<h3>Une mission qu'il va falloir mener à bien avec une autre personne à qui un Réaligramme a été offert.
+				Cette personne sera choisie au hasard... parce que le hasard fait souvent bien les choses !</h3>
 
 				<a href="#"><p>En savoir +</p></a>
 
@@ -75,7 +75,7 @@
 
 			<div class="row clearfix">
 
-				<div class="col-md-6">
+				<div class="col-xs-12">
 
 					<a href="../romance-ami-client"><div class="bouton-choisir">
 						<p>Offrez ce Réaligramme à un/e ami/e</p>
@@ -83,7 +83,7 @@
 
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-xs-12">
 
 					<a href="../romance-perso"><div class="bouton-choisir">
 						<p>Offrez ce Réaligramme à vous-même (au calme)</p>
