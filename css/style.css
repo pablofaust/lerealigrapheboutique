@@ -109,10 +109,6 @@ a, a:hover {
 	padding: 5vh 5vh 0vh 5vh;
 }
 
-.choix .menu {
-	margin-bottom: 5vh;
-}
-
 .choix .logo {
 	margin-left: auto;
 	margin-right: auto;
@@ -121,8 +117,8 @@ a, a:hover {
 .choix .logo-img {
 	margin-left: auto;
 	margin-right: auto;
-	width: 125px;
-	height: 125px;
+	width: 10vh;
+	height: 10vh;
 }
 
 .choix .logo-img>div {
@@ -135,7 +131,7 @@ a, a:hover {
 .choix h1 {
 	text-align: center;
     font-family: 'Open Sans';
-    font-size: 16px;
+    font-size: 1.5vh;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin: 0;
@@ -158,12 +154,11 @@ a, a:hover {
 .activite {
 	width: 100%;
 	padding: 5vh;
-	margin-bottom: 2vh;
 }
 
 .activite-icone {
-	height: 120px;
-	width: 120px;
+	height: 12vh;
+	width: 12vh;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -181,18 +176,19 @@ a, a:hover {
 	text-transform: uppercase;
 	color: rgba(225, 28, 40, 0.8);
 	letter-spacing: 3px;
-	font-size: 16px;
-	margin-top: 5vh;
+	font-size: 1.5vh;
+	margin-top: 2vh;
 	line-height: 1.5;
+	font-weight: 700;
 }
 
 .activite h3 {
 	font-family: 'Libre Baskerville', Times, serif;
-	font-size: 14px;
+	font-size: 1.8vh;
 	text-align: center;
 	line-height: 1.2;
 	letter-spacing: 3px;
-	margin-top: 5vh;
+	margin-top: 3vh;
 	color: rgba(0, 0, 0, 0.7);
 }
 
@@ -200,7 +196,7 @@ a, a:hover {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	text-align: right;
 	letter-spacing: 3px;
-	font-size: 10px;
+	font-size: 1.3vh;
 	margin-top: 5vh;
 	text-transform: uppercase;
 }
@@ -218,7 +214,7 @@ a, a:hover {
 	margin-right: auto;
 	margin-left: auto;
 	border: 2px solid rgba(0, 0, 0, 0.7);
-	padding: 3vh;
+	padding: 1.5vh;
 	text-align: center;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	letter-spacing: 3px;
@@ -226,6 +222,7 @@ a, a:hover {
 	color: rgba(0, 0, 0, 0.7);
 	font-weight: 700;
 	margin-bottom: 1vh;
+	font-size: 1.5vh;
 }
 
 .choix .bouton-choisir:hover {
