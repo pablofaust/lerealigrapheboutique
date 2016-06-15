@@ -1,0 +1,610 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700|Open+Sans:400,300,600,700);
+
+/* GENERAL */
+
+body {
+	overflow-x: hidden;
+    background-image: url("img/pattern.png");
+    background-repeat: repeat;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+/* INTRO */
+
+.intro {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.intro .background-img {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	z-index: 0;
+}
+
+.intro .background-img>div {
+	height: 100%;
+	width: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.intro .contenu {
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	margin-top: 50vh;
+	transform: translateY(-50%);
+}
+
+.intro .logo-img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+.intro .logo-img>div {
+	height: 100%;
+	width: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.intro h1 {
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.intro .bouton-offrir {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-image: url("img/pattern.png");
+    background-repeat: repeat;
+    padding: 5%;
+    margin-top: 15%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.intro .bouton-offrir h2 {
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.intro .bouton-offrir:hover h2 {
+ 	color: rgba(225, 28, 40, 0.8);
+}
+
+/* DECOUVRIR */
+
+.decouvrir {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+
+/* OFFRIR */
+/* CHOIX ACTIVITE */
+
+.choix {
+	width: 100%;
+	margin: 0;
+	padding: 5vh 5vh 0vh 5vh;
+}
+
+.choix .menu {
+	margin-bottom: 5vh;
+}
+
+.choix .logo {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.choix .logo-img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 125px;
+	height: 125px;
+}
+
+.choix .logo-img>div {
+	height: 100%;
+	width: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.choix h1 {
+	text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 1vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.choix .row {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+.choix .colonne {
+	padding: 0;
+}
+
+.activite {
+	border: 2px solid rgba(0, 0, 0, 0.7);
+	width: 100%;
+	padding: 5vh;
+	margin-bottom: 2vh;
+}
+
+.activite-icone {
+	height: 120px;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.activite-icone>div {
+	height: 100%;
+	width: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.activite h2 {
+	font-family: 'Libre Baskerville', Times, serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(225, 28, 40, 0.8);
+	letter-spacing: 3px;
+	font-size: 16px;
+	margin-top: 5vh;
+	line-height: 1.5;
+}
+
+.activite h3 {
+	font-family: 'Libre Baskerville', Times, serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.2;
+	letter-spacing: 3px;
+	margin-top: 5vh;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.activite p {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: right;
+	letter-spacing: 3px;
+	font-size: 10px;
+	margin-top: 5vh;
+	text-transform: uppercase;
+}
+
+.activite p:hover {
+	color: rgba(225, 28, 40, 0.8);
+}
+
+.choix .bouton-choisir {
+	border: 2px solid rgba(0, 0, 0, 0.7);
+	padding: 3vh;
+	text-align: center;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: rgba(225, 28, 40, 0.8);
+	font-weight: 700;
+	margin-bottom: 5vh;
+}
+
+.choix .bouton-choisir:hover {
+	border: 2px solid rgba(225, 28, 40, 0.8);
+}
+
+.choix .bouton-choisir p {
+	margin: 0;
+}
+
+/* FORMULAIRE CLIENT */
+
+.formulaire {
+	width: 100%;
+	margin: 0;
+	padding: 5vh 5vh 0vh 5vh;
+}
+
+.formulaire .menu {
+	margin-bottom: 5vh;
+}
+
+.formulaire .logo {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formulaire .logo-img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 125px;
+	height: 125px;
+}
+
+.formulaire .logo-img>div {
+	height: 100%;
+	width: 100%;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+.formulaire h1 {
+	text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 1vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.formulaire h2 {
+	text-align: center;
+	font-family: 'Libre Baskerville', Times, serif;
+	color: rgba(0, 0, 0, 0.7);
+	letter-spacing: 3px;
+	font-size: 2vh;
+	line-height: 3vh;
+}
+
+.formulaire-cadre {
+	width: 100%;
+	border: 2px dashed rgba(0, 0, 0, 0.7);
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	padding: 3vh;
+}
+
+.formulaire label {
+	font-family: 'Libre Baskerville', Times, serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 1.3vh;
+}
+
+.formulaire input {
+	border: 2px solid rgba(0, 0, 0, 0.7);
+	float: right;
+	background-color: transparent;
+	color: rgba(0, 0, 0, 0.7);
+  	font-family: 'Open Sans', Helvetica, sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.formulaire input:focus {
+	outline: none;
+	border: 2px solid rgba(225, 28, 40, 0.8);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.4vh;
+  padding-left: 10px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.2vh;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.2vh;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.2vh;
+}
+
+.formulaire p {
+	font-family: 'Libre Baskerville', Times, serif;
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1.3vh;
+	text-align: center;
+	margin-bottom: 3vh;
+	font-weight: 700;
+}
+
+.formulaire .boutons-offrir {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formulaire .boutons-offrir input {
+	font-size: 1.5vh;
+	border: 2px solid rgba(225, 28, 40, 0.8);
+	color: rgba(225, 28, 40, 0.8);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: inherit;
+	display: inline-block;
+	margin-bottom: 2vh;
+	padding: 1.5vh;
+	font-weight: 400;
+}
+
+.formulaire .boutons-offrir input:hover {
+	font-weight: 700;
+}
+
+/* RESPONSIVE : TABLETTE */
+
+@media (min-width: 768px) {
+
+.intro .logo-img {
+	width: 250px;
+	height: 250px;
+}
+
+.intro h1 {
+	font-size: 24px;
+}
+
+.intro .bouton-offrir {
+	width: 50%;
+    padding: 4%;
+    margin-top: 10%;
+}
+
+.intro .bouton-offrir h2 {
+	font-size: 14px;
+}
+
+/* OFFRIR */
+/* FORMULAIRE CLIENT */
+
+.formulaire-cadre {
+	width: 75%;
+}
+
+/* RESPONSIVE : DESKTOP */
+
+@media (min-width: 992px) {
+
+.intro .bouton-offrir {
+	width: 20%;
+    padding: 1.5%;
+    margin-top: 5%;
+}
+
+/* OFFRIR */
+/* CHOIX ACTIVITE */
+
+.choix .menu {
+	height: 15vh;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.choix .logo {
+	float: left;
+	height: 100%;
+	width: 20vh;
+}
+
+.choix .logo-img {
+	height: 10vh;
+	width: 10vh;
+}
+
+.choix h1 {
+	font-size: 1.2vh;
+	font-weight: 700;
+	letter-spacing: 0.5vh;
+}
+
+.choix .navbar {
+	float: right;
+	margin: 0;
+	margin-top: 5vh;
+}
+
+.choix .navbar p {
+	display: inline-block;
+    margin: 0;
+    font-family: 'Open Sans';
+    letter-spacing: 0.5vh;
+    text-transform: uppercase;
+    font-size: 1.5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.choix .navbar p:hover {
+    color: rgba(225, 28, 40, 0.8);
+}
+
+.choix .navbar .active {
+	color: rgba(0, 0, 0, 1);
+	font-weight: 700;
+}
+
+.choix .row {
+	height: 80vh;
+	padding: 0;
+}
+
+.choix .colonne {
+	padding: 5vh;
+	height: 70vh;
+}
+
+.choix .activite {
+	height: 100%;
+}
+
+.choix .activite-icone {
+	height: 12vh;
+	width: 12vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.activite h2 {
+	letter-spacing: 0.5vh;
+	font-size: 2vh;
+	margin-top: 3vh;
+	line-height: 1.5;
+}
+
+.activite h3 {
+	letter-spacing: 0.5vh;
+	font-size: 1.3vh;
+	margin-top: 3vh;
+	text-align: left;
+	line-height: 2vh;
+}
+
+.activite p {
+	margin-top: 3vh;
+}
+
+/* FORMULAIRE CLIENT */
+
+.formulaire .menu {
+	height: 15vh;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.formulaire .logo {
+	float: left;
+	height: 100%;
+	width: 20vh;
+}
+
+.formulaire .logo-img {
+	height: 10vh;
+	width: 10vh;
+}
+
+.formulaire h1 {
+	font-size: 1.2vh;
+	font-weight: 700;
+	letter-spacing: 0.5vh;
+}
+
+.formulaire .navbar {
+	float: right;
+	margin: 0;
+	margin-top: 5vh;
+}
+
+.formulaire .navbar p {
+	display: inline-block;
+    margin: 0;
+    font-family: 'Open Sans';
+    letter-spacing: 0.5vh;
+    text-transform: uppercase;
+    font-size: 1.5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.formulaire .navbar p:hover {
+    color: rgba(225, 28, 40, 0.8);
+}
+
+.formulaire .navbar .active {
+	color: rgba(0, 0, 0, 1);
+	font-weight: 700;
+}
+
+.formulaire-cadre {
+	width: 50%;
+}
+
+.formulaire .sous-titre {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formulaire .sous-titre h2 {
+	text-align: left;
+}
+
+.formulaire .destinataire {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formulaire .destinataire p, .formulaire .destinataire .boutons-offrir input {
+	display: inline-block;
+}
+
+/* RESPONSIVE : TRES GRANDS ECRANS*/
+
+@media (min-width: 1200px) {
+
+/* OFFRIR */
+/* CHOIX ACTIVITE */
+
+.choix .colonne {
+	padding: 6.5vh;
+}
+
+.activite h2 {
+	margin-top: 5vh;
+}
+
+.activite h3 {
+	margin-top: 5vh;
+}
+
+.activite p {
+	margin-top: 5vh;
+}
