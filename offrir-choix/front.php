@@ -26,9 +26,9 @@
 					<div style="background-image: url('<?php echo $url ?>offrir-choix/img/equipe.png')" ></div>
 				</div>
 
-				<h2>~ L'aventure collective ~</h2>
+				<h2>L'aventure collective</h2>
 
-				<h3>Une mission qu'il va falloir mener à bien avec d’autres personnes à qui un Réaligramme aura été offert.</h3>
+				<h3>Une mission qu'il va falloir mener à bien avec d’autres personnes à qui un Réaligramme aura été offert...</h3>
 
 				<a href="#"><p>En savoir +</p></a>
 
@@ -64,7 +64,7 @@
 					<div style="background-image: url('<?php echo $url ?>offrir-choix/img/couple.png')" ></div>
 				</div>
 
-				<h2>~ L'aventure romantique ~</h2>
+				<h2>L'aventure romantique</h2>
 
 				<h3>Une mission qu'il va falloir mener à bien avec une autre personne à qui un Réaligramme a été offert.
 				Cette personne sera choisie au hasard... parce que le hasard fait souvent bien les choses !</h3>
