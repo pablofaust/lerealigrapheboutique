@@ -582,8 +582,12 @@ a, a:hover {
 	margin-right: auto;
 }
 
-.formulaire .destinataire p, .formulaire .destinataire .boutons-offrir input {
-	display: inline-block;
+.formulaire p {
+	text-align: left;
+}
+
+.formulaire .boutons-offrir {
+	margin-right: 0;
 }
 
 /* RESPONSIVE : TRES GRANDS ECRANS*/

@@ -34,9 +34,25 @@
 
 			</div>
 
-			<a href="../offrir-client"><div class="bouton-choisir">
-				<p>Offrez ce Réaligramme</p>
-			</div></a>
+			<div class="row clearfix">
+
+				<div class="col-md-6">
+
+					<a href="../aventure-ami-client"><div class="bouton-choisir">
+						<p>Offrez ce Réaligramme à un/e ami/e</p>
+					</div></a>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<a href="../aventure-perso"><div class="bouton-choisir">
+						<p>Offrez ce Réaligramme à vous-même (au calme)</p>
+					</div></a>
+
+				</div>
+
+			</div>
 
 		</div>
 
@@ -57,11 +73,29 @@
 
 			</div>
 
-			<a href="../offrir-client"><div class="bouton-choisir">
-				<p>Offrez ce Réaligramme</p>
-			</div></a>
+			<div class="row clearfix">
+
+				<div class="col-md-6">
+
+					<a href="../romance-ami-client"><div class="bouton-choisir">
+						<p>Offrez ce Réaligramme à un/e ami/e</p>
+					</div></a>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<a href="../romance-perso"><div class="bouton-choisir">
+						<p>Offrez ce Réaligramme à vous-même (au calme)</p>
+					</div></a>
+
+				</div>
+
+			</div>
 
 		</div>
+
+
 
 	</div>
 </div>
